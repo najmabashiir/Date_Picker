@@ -1,3 +1,4 @@
+import 'package:date_picker/timePicker.dart';
 import 'package:flutter/material.dart';
 
 import 'DatePicker.dart';
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: myDatepicker(),
+      home: TimePickerScreen(),
     );
   }
 }
